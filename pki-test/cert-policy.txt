@@ -1,0 +1,18 @@
+[Version]
+Signature="$Windows NT§"
+[New Request]
+Subject = "CN=domain.tld,O=Your company LTD,OU=IT,ST=Middlesex,L=London,C=GB"
+KeyLength =  3072
+KeySpec = 1
+Exportable = True
+ProviderName = "Microsoft RSA SChannel Cryptographic Provider"
+HashAlgorithm = SHA256
+MachineKeySet = True
+SMIME = False
+UseExistingKeySet = False
+RequestType = PKCS10
+KeyUsage = 0xA0
+Silent = True
+FriendlyName = "Certificate SHA-256"
+[EnhancedKeyUsageExtension]
+OID=1.3.6.1.5.5.7.3.1
